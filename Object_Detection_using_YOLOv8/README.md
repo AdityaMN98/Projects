@@ -15,13 +15,13 @@ The images data which contains images is downloaded from [Open Image Dataset V7]
 - Check for annotations or annotate the images using tools like cvat.ai.
 - Store the images and labels in the YOLO format.
 - Create the yaml file having the path to images both training and evaluation set with the classes in the images.
-- Use the appropriate YOLOv8 Model. Train and test the model using the data. 
+- Use the appropriate YOLOv8 Model. Train and test the model using the data. Refer [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) for the models and training process.
 
 #### 📊Results:
 
 The graphs produced after training are shown below.
 
-<img src="README Img/results.png" alt="results"/>
+<img src="README Img/results.png" alt="results" height = 200 width = 1000/>
 
 The trained model is used to detect the object(car).
 
