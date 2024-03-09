@@ -8,7 +8,9 @@ One type of computer vision task is object detection, which involves locating a 
 
 ### 💭Project Process:
 
-The images data which contains images is downloaded from [Open Image Dataset V7](https://storage.googleapis.com/openimages/web/index.html) with the annotations required to train. The YOLOv8 nano model is trained using the images and annotations.  The train set used is 800 images and test set is 200 images. The model is tested using the images from the test set. The plotted graphs show that the loss decreases over the 20 epochs.
+The images data which contains images is downloaded from [Open Image Dataset V7](https://storage.googleapis.com/openimages/web/index.html) with the annotations required to train. The YOLOv8 nano model is trained using the images and annotations.  The train set used is 800 images and test set is 200 images. The model is tested using the images from the test set. The plotted graphs show that the loss decreases over the 20 epochs. 
+
+Check [Google Colab](https://github.com/AdityaMN98/Projects/tree/main/Object_Detection_using_YOLOv8/Google_Collab) directory for the code.
 
 #### 🛠️Steps:
 - Get the images which have the object which has to be detected.
@@ -21,7 +23,7 @@ The images data which contains images is downloaded from [Open Image Dataset V7]
 
 The graphs produced after training are shown below.
 
-<img src="README Img/results.png" alt="results" height = 200 width = 1000/>
+<img src="README Img/results.png" alt="results" height = 300 width = 1000/>
 
 The trained model is used to detect the object(car).
 
