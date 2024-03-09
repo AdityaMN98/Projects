@@ -12,14 +12,14 @@ The images data which contains images is downloaded from [Open Image Dataset V7]
 
 Check [Google Colab](https://github.com/AdityaMN98/Projects/tree/main/Object_Detection_using_YOLOv8/Google_Collab) directory for the code.
 
-#### 🛠️Steps:
+### 🛠️Steps:
 - Get the images which have the object which has to be detected.
 - Check for annotations or annotate the images using tools like cvat.ai.
 - Store the images and labels in the YOLO format.
 - Create the yaml file having the path to images both training and evaluation set with the classes in the images.
 - Use the appropriate YOLOv8 Model. Train and test the model using the data. Refer [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) for the models and training process.
 
-#### 📊Results:
+### 📊Results:
 
 The graphs produced after training are shown below.
 
@@ -48,5 +48,3 @@ The model does not detect all the cars in below image. To improve a larger model
 - Use data augmentation for better results on unseen images. 
 - Using more images to train the model, can give better object detection.
 - Can get better results by using above techniques when more than one object is in image like image 2 in results.
-
-
