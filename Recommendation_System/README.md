@@ -1,4 +1,4 @@
-<img src="Images/header.png" alt="header"/>
+<img src="Images/header.png" alt="header" height= 200 width = 600/>
 
 <h1 align="center">Recommendation System Using Vectorization and Cosine Similarity</h1>
 
@@ -20,7 +20,9 @@ The result is we get a matrix of (n x n) which has the similarity of each movies
 The (n x n) can be exported using pickle and used to give the result.
 
 #### The similarity matrix is shown below:
-<img src="Images/output.png" alt="header" height= 600 width=600/>
+<div style="text-align:center; border: 1px solid white; padding: 5px;">
+    <img src="Images/output.png" alt="header" height="400" width="600"/>
+</div>
 
 ## ⚡Technologies and Concepts Used:
 - Python
@@ -32,7 +34,9 @@ The (n x n) can be exported using pickle and used to give the result.
 
 The web interface is shown below:
 
-<img src="Images/web.png" alt="header" height= 400 width=600/>
+<div style="text-align:center; border: 1px solid white; padding: 5px;">
+    <img src="Images/web.png" alt="header" height="400" width="600"/>
+</div>
 
 
 ## 📈Improvements:
