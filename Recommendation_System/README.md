@@ -9,18 +9,35 @@ Many applications like to provide a set of recommendations to users based on the
 ## 🛠️Steps:
 - Get the data that has movie names and description of each movie.
 - Choose the relevant data that are useful to find the similarity between movies.
-- Remove the filler words and perform stemming to handle similar words (like work, working, worked etc ) 
-- Find the number of most frequent words and choose a appropriate dimension to convert each movie to vector a.
-- Find the similarity of each movie with others and return most similar movies. 
+- Remove the filler words and perform stemming to handle similar words (like work, working, worked etc).
+- Find the number of most frequent words and choose a appropriate dimension to convert each movie to a vector. Vector dimension chosen here is 5000.
+- Find the similarity of each movie with others and return most similar movies.
 
 
 ## 📊Results:
+The result is we get a matrix of (n x n) which has the similarity of each movies with the other. To find the movies to recommend traverse to the row of the movie find the vector which has similarity and sort it. Return the most similar movies based on similarity.
 
+The (n x n) can be exported using pickle and used to give the result.
 
+#### The similarity matrix is shown below:
+<img src="Images/output.png" alt="header" height= 600 width=600/>
 
+## ⚡Technologies and Concepts Used:
+- Python
+- Stemmer
+- Count Vectorizer
+- Bag of Words Technique
+- Cosine Similarity - As the dimension of vector is more.
+- StreamLit - To build interactive web application.
 
-## ⚡Technologies and Applications Used:
+The web interface is shown below:
 
+<img src="Images/web.png" alt="header" height= 400 width=600/>
 
 
 ## 📈Improvements:
+- The vector size can be increased to have more accurate results.
+- The formation of vectors can be improved to include certain information of the movies.
+- This is static, which can be made to dynamic.
+- User data can also be integrated and connected to have other kinds of recommendations.
+- A graph based recommendation system can be built.
