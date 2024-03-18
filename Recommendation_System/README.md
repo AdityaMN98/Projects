@@ -1,4 +1,4 @@
-<img src="Images/header.png" alt="header" height= 200 width = 600/>
+<img src="Images/header.png" alt="header"/>
 
 <h1 align="center">Recommendation System Using Vectorization and Cosine Similarity</h1>
 
