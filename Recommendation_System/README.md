@@ -25,12 +25,12 @@ The (n x n) can be exported using pickle and used to give the result.
 </div>
 
 ## ⚡Technologies and Concepts Used:
-- Python
-- Stemmer
-- Count Vectorizer
-- Bag of Words Technique
-- Cosine Similarity - As the dimension of vector is more.
-- StreamLit - To build interactive web application.
+- `Python`
+- `Stemmer`
+- `Count Vectorizer`
+- `Bag of Words Technique`
+- `Cosine Similarity - As the dimension of vector is more.`
+- `StreamLit - To build interactive web application.`
 
 ## 📈Improvements:
 - The vector size can be increased to have more accurate results.
