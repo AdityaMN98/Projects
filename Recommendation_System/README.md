@@ -32,13 +32,6 @@ The (n x n) can be exported using pickle and used to give the result.
 - Cosine Similarity - As the dimension of vector is more.
 - StreamLit - To build interactive web application.
 
-The web interface is shown below:
-
-<div style="text-align:center; border: 1px solid white; padding: 5px;">
-    <img src="Images/web.png" alt="header" height="400" width="600"/>
-</div>
-
-
 ## 📈Improvements:
 - The vector size can be increased to have more accurate results.
 - The formation of vectors can be improved to include certain information of the movies.
